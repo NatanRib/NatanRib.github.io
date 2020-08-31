@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Natan Marçal | Portfolio</title>
+</head>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lobster&family=PT+Sans&family=Shadows+Into+Light&display=swap');
+	
+	body{
+		display: flexbox;
+		margin: 0;
+		color: white;
+		background-color: rgb(46, 83, 151);
+	}
+
+	#navi{
+		display: flex;
+		margin: 0;
+		background-color: #103449;
+	}
+
+	#navi li{
+		color: white;
+		display: block;
+		text-decoration: none;
+		padding: 15px;
+	}
+
+	#navi li:first-child{
+		margin-right: auto;
+	}
+
+	#page{
+		display: flex;
+		background-color: rgb(46, 83, 151);
+		font-family: 'PT Sans', sans-serif;
+	}
+
+	#apresentation{
+		background-color: #193a6b;
+		height: auto;
+		width: 100vw;
+		
+	}
+
+	#center{
+		padding-top: 10vh;
+		padding-right: 20px;
+		padding-left: 20px;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	#center h1{
+		padding-bottom: 5vh;
+	}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+	#projects{
+		text-align: center;
+		width: 75vw;
+		font-size: 12;
+		height: auto;
+	}
+
+	#projects h2{
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+	}
+
+	#care-images{
+		display: flex;
+   	 	margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	#spacer-care{
+		width: 3vw;
+	}
+
+	#care-images img{
+		padding-right: 10px;
+	}
+
+	#lunc-images{
+		display: flex;
+   	 	margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	#spacer-lunc{
+		width: 3vw;
+	}
+
+	#lunc-images img{
+		padding-right: 10px;
+	}
+
+	#rm-images{
+		display: flex;
+   	 	margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	#spacer-rm{
+		width: 14vw;
+	}
+
+	#rm-images img{
+		padding-right: 10px;
+	}
+
+	#eu{
+		border-radius: 100%;
+	}
+</style>
+<script>
+	function aviso(){
+		apresentacao = document.getElementById('apresentation')
+		apresentacao.style.height = 100%
+	}
+	window.onresize = aviso
+	window.onscroll = aviso
+</script>
+<body>
+	<nav>
+		<ul id="navi">
+			<li>Meu portfolio</li>
+			<li><a href="https://www.linkedin.com/in/natan-mar%C3%A7al-615b35185/">LinkedIn</a></li>
+			<li><a href="https://github.com/NatanRib">GitHub</a></li>
+		</ul>
+	</nav>
+	<section id="page">
+		<section id="apresentation">
+			<div id="center">
+				<h1>Quem é Natan Marçal</h1>
+				<img src="./assets/images/eu.jpg" id="eu" width="220" height="240" alt="">
+				<p>Sou um entusiasta em tecnologia, principalmente programação, tive meu primeiro contato
+					com programação através do java, em um curso para desenvolvimento de jogos, 
+					a partir desse momento eu sabia que era isso que queria fazer da vida, programar e 
+					desenvolver sistemas. Do java parti para o Dart/Flutter, pois queria algo com uma curva
+					de aprendizagem menor, algo em que eu conseguiria desenvolver meus projetos mais rapidamente,
+					mas ainda faltava algo, eu tambem queria desenvolver meus proprios servidores back-end, 
+					pensei no java novamente, mas java é muito verboso para mim e me senti mais a vontade com 
+					python, então parti para python/flask. Okey, estudo e desenvolvo sistemas com essas tecnologias,
+					mas ainda sentia que me falta algo, uma formação. Me inscrevi, me dediquei e atualmente estou cursando
+					Analise e desenvolvimento de sistemas na Fatec de Ourinhos-SP.
+				</p>
+			</div>
+		</section>
+		<section id="projects">
+			<h2>Alguns projetos</h2>
+			<h1>Care - Um esboço de rede social para as pessoas fazer e pedir doações.</h1>
+			<p>Foi meu primeiro projeto com flutter, não segui nenhuma boa pratica, o padrão de projeto
+			esta bem ruim, infelismente tive um problema com minha maquina e perdi o projeto.</p>
+			<div id="care-images">
+				<div id="spacer-care"></div>
+				<div><img src="./assets/images/care-1.jpg" alt="care 1" width=150 height=250></div>
+				<div><img src="./assets/images/care-2.jpg" alt="care 2" width=150 height=250></div>
+				<div><img src="./assets/images/care-3.jpg" alt="care 3" width=150 height=250></div>
+				<div><img src="./assets/images/care-4.jpg" alt="care 4" width=150 height=250></div>
+				<div><img src="./assets/images/care-5.jpg" alt="care 5" width=150 height=250></div>
+				<div><img src="./assets/images/gifs/20200830_160903.gif" alt="care 5" width=150 height=250></div>
+			</div>
+
+			<a href="https://github.com/NatanRib/lunc_sistem"><h1>Lunc - Um sistema recolher pedidos em lanchonetes.</h1></a>
+			<p>Foi uns dos primeiros sistemas um pouco mais complexos, preciso quando sobrar um tempo.</p>
+			<div id="lunc-images">
+				<div id="spacer-lunc"></div>
+				<div><img src="./assets/images/l-1.jpg" alt="lunc 1" width=150 height=250></div>
+				<div><img src="./assets/images/l-2.jpg" alt="lunc 2" width=150 height=250></div>
+				<div><img src="./assets/images/l-4.jpg" alt="lunc 4" width=150 height=250></div>
+				<div><img src="./assets/images/l-5.jpg" alt="lunc 5" width=150 height=250></div>
+				<div><img src="./assets/images/l-6.jpg" alt="lunc 6" width=150 height=250></div>
+				<div><img src="./assets/images/gifs/20200830_162043.gif" alt="lunc gif" width=150 height=250></div>
+			</div>
+
+			<a href="https://github.com/NatanRib/Rick_and_Morty_Wiki"><h1>Rm Wiki - Um app que lista a os personagem de Rick Morty.</h1></a>
+			<p>Um app que consumi uma API publica com os personagens.</p>
+			<div id="rm-images">
+				<div id="spacer-rm"></div>
+				<div><img src="./assets/images/rm-1.jpg" alt="rm wiki 1" width=150 height=250></div>
+				<div><img src="./assets/images/rm-2.jpg" alt="rm wiki 2" width=150 height=250></div>
+				<div><img src="./assets/images/rm-3.jpg" alt="rm wiki 3" width=150 height=250></div>
+				<div><img src="./assets/images/gifs/20200830_161324.gif" alt="lunc 5" width=150 height=250></div>
+			</div>
+			<a href="https://github.com/NatanRib/api_hotels_flask"><h1>API Hotels - Uma Rest API de hoteis.</h1></a>
+			<p>Uma API completa que retorna, cadasta, atualiza e deleta sites de hoteis, os hoteis vinculados a esses sites
+			e usuarios, alem de atenticar os usuarios via JWT.</p>
+		</section>
+	</section>
+
+</body>
+</html>
