@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lobster&family=PT+Sans&family=Shadows+Into+Light&display=swap');
+	
+	body{
+		display: flexbox;
+		margin: 0;
+		color: white;
+		background-color: rgb(46, 83, 151);
+	}
+
+	#navi{
+		width: auto;
+		display: flex;
+		margin: 0;
+		background-color: #103449;
+	}
+
+	#navi li{
+		color: white;
+		display: block;
+		text-decoration: none;
+		padding: 15px;
+	}
+
+	#navi li:first-child{
+		margin-right: auto;
+	}
+
+	#page{
+		display: flexbox;
+		background-color: rgb(46, 83, 151);
+		font-family: 'PT Sans', sans-serif;
+	}
+
+	#apresentation{
+		background-color: #193a6b;
+		height: auto;
+		width: 100vw;
+		
+	}
+
+	#center{
+		padding-top: 7vh;
+		padding-right: 20px;
+		padding-left: 20px;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	#center h1{
+		padding-bottom: 5vh;
+	}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+	#projects{
+		text-align: center;
+		
+		font-size: 12;
+		height: auto;
+	}
+
+	#projects h2{
+		padding-top: 7vh;
+		padding-bottom: 10vh;
+	}
+
+	#care-images{
+		display: flexBox;
+   	 	margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	#spacer-care{
+		width: 3vw;
+	}
+
+	#care-images img{
+		padding-right: 10px;
+	}
+
+	#lunc-images{
+		display: flexBox;
+   	 	margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	#spacer-lunc{
+		width: 3vw;
+	}
+
+	#lunc-images img{
+		padding-right: 10px;
+	}
+
+	#rm-images{
+		display: flexBox;
+   	 	margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	#spacer-rm{
+		width: 14vw;
+	}
+
+	#rm-images img{
+		padding-right: 10px;
+	}
+
+	#eu{
+		border-radius: 100%;
+	}
