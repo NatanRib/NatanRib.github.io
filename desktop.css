@@ -9,7 +9,7 @@
 
 	#navi{
 		width: auto;
-		display: flexbox;
+		display: flex;
 		margin: 0;
 		background-color: #103449;
 	}
